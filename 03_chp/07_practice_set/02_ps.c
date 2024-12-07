@@ -13,7 +13,7 @@ int main() {
     scanf("%d %d %d", &s1, &s2, &s3);
 
     if(s1 >= 33 && s2 >= 33 && s3 >= 33) {
-        per = (s1 + s2 + s3 / total) * 100;
+        per = (s1 + s2 + s3 / 3) * 100;
 
         if(per < 40) {
             printf("Student is Failed!\n");

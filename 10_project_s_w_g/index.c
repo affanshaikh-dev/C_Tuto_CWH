@@ -19,7 +19,9 @@ int main()
         {
             printf("Tie! Both are Same.\n");
         }
-        else if ((player == 0 && computer == 1) || (player == 1 && computer == 2) || (player == 2 && computer == 0))
+        else if ((player == 0 && computer == 1) 
+                 || (player == 1 && computer == 2) 
+                 || (player == 2 && computer == 0))
         {
             printf("You Win!\n");
         }

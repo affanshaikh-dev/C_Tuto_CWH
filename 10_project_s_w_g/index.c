@@ -33,5 +33,6 @@ int main()
         scanf("%c", &con);
     } while (con == 'Y' || con == 'y');
 
+    printf("Thanks! for play my basic Game.");
     return 0;
 }

@@ -2,7 +2,7 @@
 
 int main() {
     FILE *ptr;
-    int num = 4;
+    int num = 5;
     ptr = fopen("table.txt", "w");
 
     if (ptr == NULL) {
@@ -11,7 +11,7 @@ int main() {
     }
 
     for (int i = 0; i < 10; i++) {
-        fprintf(ptr, "%d x %d = %d\n", num, i, num * (i + 1));
+        fprintf(ptr, "%d x %d = %d\n", num, i+1, num * (i + 1));
     }
 
     fclose(ptr);  

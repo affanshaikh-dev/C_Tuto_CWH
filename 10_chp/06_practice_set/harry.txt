@@ -1,0 +1,4 @@
+Affan	8000.00
+Zaid	1900.00
+Affan	1800.00
+Shazan	1800.00

@@ -7,20 +7,12 @@ int main() {
     int* ptr;
 
     scanf("%d", &n);
-    ptr = (int*) malloc(n * sizeof(int));
+    ptr = (int*) calloc(n, sizeof(int));
     
     ptr[0] = 3;
-    ptr[1] = 4;
 
     printf("%d\n", ptr[0]);
 
     return 0;
 }
 
-/* 
-Types of function in DMA
-malloc()
-calloc()
-free()
-realloc()
-*/
